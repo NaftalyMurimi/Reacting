@@ -8,13 +8,13 @@
 }
 .red{
   color: red;
-  background-color: rgb(77, 230, 6);
+ 
 }
-.font{
+#font{
   font-size: 25px;
 }
 .back{
-  background-color: green;
+  background-color: rgb(77, 230, 6);
 }
 h1{
   text-align: center;
@@ -32,4 +32,23 @@ button{
   font-weight: bold;
   display: flex;
   flex-direction: column;
+}
+/*style for rating component*/
+.container{
+  width: 40%;
+  border: 7px solid orchid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+textarea{
+ margin-top: 30px;
+  width: 80%;
+  
+  height: 150px;
+}
+/* change color to yellow*/
+.yellow{
+  color: yellow;
 }
